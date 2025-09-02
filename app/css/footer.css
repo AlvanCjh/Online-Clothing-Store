@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.contact-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-me h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 40%;
+    transition: all 0.3s ease;
+}
+.social-icons a:hover {
+    background-color: #e9d4d4;
+    transform: translateY(-2px);
+}
+.social-icons i {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+.contact-me {
+    text-align: right;
+}
+

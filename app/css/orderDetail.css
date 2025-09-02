@@ -1,0 +1,49 @@
+.popup {
+    width: 100px;
+    height: 100px;
+}
+.print-receipt {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+@media print {
+    .print-receipt {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+    body * {
+        visibility: hidden;
+    }
+    .print-receipt, .print-receipt * {
+        visibility: visible;
+    }
+    .print-receipt {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .no-print {
+        display: none !important;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+}
+
+.no-print {
+    color: #fff;
+}

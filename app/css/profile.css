@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(rgba(46, 40, 40, 0.7), rgba(35, 34, 34, 0.7)), url('../images/login.jpg');  
+    background-size: cover; 
+}
+
+.welcome {
+    color: #FFF;
+}
+
+
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-card {
+    max-width: 420px;
+    background: #ECDCBF; 
+    padding: 30px 40px; 
+    margin: 50px auto; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #A31D1D;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #A31D1D;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #e39292;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(rgba(46, 40, 40, 0.7), rgba(35, 34, 34, 0.7)), url('../images/login.jpg');  
+    background-size: cover; 
+}
+
+.login {
+    max-width: 420px;
+    background: #ECDCBF; 
+    color: #A31D1D;
+    padding: 30px 40px; 
+    margin: 50px auto; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-box input {
+    width: 280px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid #A31D1D;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #5C4033;
+    background: #FFF7E6;
+    background: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column; /* Ensures the label and input are stacked */
+    align-items: left; /* Aligns contents (input fields) to the center */
+    margin-bottom: 15px; /* Adds spacing between fields */
+}
+
+input[type="text"], input[type="password"] {
+    text-align: left; /* Centers text within the input field */
+    border: 2px solid #000; /* Adds a border for visibility */
+    width: 400px; /* Adjust width as needed */
+    padding: 10px; /* Adds padding for spacing inside the input */
+    border: 2px solid #A31D1D;
+}
+
+button {
+    background-color: white;
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button1:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  
